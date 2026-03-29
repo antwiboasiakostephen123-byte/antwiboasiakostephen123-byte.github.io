@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Freshers Akwaaba & Security Awareness Night</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            background-image: url('Project pic&vid/Blank 6 Grids Collage.png');
+            background-size: cover;
+            background-position: top center;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 30, 0.55);
+            z-index: 1;
+        }
+
+        .top-bar {
+            position: absolute;
+            top: 25px;
+            left: 40px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-img {
+            max-width: 95px;
+            height: auto;
+        }
+
+        .nav {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            z-index: 3;
+        }
+
+        .nav a {
+            color: #00ff9f;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            color: white;
+        }
+
+        /* 🔥 FIXED GRID: Always 4 in a row */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .team-card {
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            border: 1px solid #00ff9f33;
+        }
+
+        .team-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .team-info {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #00ff9f;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <section class="hero">
+        <div class="top-bar">
+            <img src="Project pic&vid/2c70f457-9acb-46ff-a66a-a5684fdb7293.png" alt="Logo" class="logo-img">
+            <h1 style="color: white; font-size: 2.2rem;">Freshers Akwaaba & Security Awareness Night</h1>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Our Team</a>
+            <a href="modules.html">Modules</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- Team Photos -->
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="Project pic&vid/WhatsApp Image 2026-03-24 at 14.38.18.jpeg" alt="Group 1">
+            <div class="team-info">
+                <strong>Coffie Obed Kakari, Halima Adjartey & Isaac Collins Boni</strong><br>
+                <em>Why Cyber Security?</em><br>
+                Explained why cybersecurity matters and highlighted common cyberattacks.
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="Project pic&vid/WhatsApp Image 2026-03-25 at 16.57.04.jpeg" alt="Group 2">
+            <div class="team-info">
+                <strong>Antwi Stephen Boasiako & Osmond Apedo</strong><br>
+                <em>Dispelling Misconceptions About Cyber Security</em><br>
+                Focused on correcting the wrong belief that cybersecurity is not about scamming.
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="Project pic&vid/WhatsApp Image 2026-03-24 at 14.27.09.jpeg" alt="Group 3">
+            <div class="team-info">
+                <strong>Otoo Amoah Barrack & Patrick Nsiah</strong><br>
+                <em>Practical & Technical Training</em><br>
+                Delivered hands-on sessions on call tracking, safe browsing, and online privacy.
+            </div>
+        </div>
+
+        <!-- 🔥 NEW 4TH CARD -->
+        <div class="team-card">
+            <img src="Project pic&vid/WhatsApp Image 2026-03-28 at 23.08.02.jpeg" alt="Group 4">
+            <div class="team-info">
+                <strong>Mensah Desmond</strong><br>
+                <em>Summary of the Entire Program</em><br>
+                Presented the overall conclusion, summarizing all activities, key lessons, and the importance of cybersecurity awareness.
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Freshers Akwaaba & Security Awareness Night • CY381 Cybersecurity Lab Work 1 • March 2026</p>
+    </footer>
+
+</body>
+</html>

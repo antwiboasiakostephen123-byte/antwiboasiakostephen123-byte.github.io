@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Event - Freshers Akwaaba & Security Awareness Night</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            background-image: url('Project pic&vid/45945-cyber-security-template-ppt-01.png');     /* Top banner - you can change this too */
+            background-size: cover;
+            background-position: center;
+            height: 25vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 30, 0.80);
+            z-index: 1;
+        }
+
+        .top-bar {
+            position: absolute;
+            top: 25px;
+            left: 40px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-img {
+            max-width: 95px;
+            height: auto;
+        }
+
+        .nav {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            z-index: 3;
+        }
+
+        .nav a {
+            color: #00ff9f;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            color: white;
+        }
+
+        /* This is the section with your own picture as background */
+        .about-section {
+            background-image: url('Project pic&vid/Untitled.jpeg');   /* ← YOUR OWN PICTURE HERE */
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            position: relative;
+            color: white;
+        }
+
+        .about-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 30, 0.78);   /* Dark overlay so text is readable */
+            z-index: 1;
+        }
+
+        .about-content {
+            position: relative;
+            z-index: 2;
+            max-width: 950px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: #00ff9f;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Hero Banner -->
+    <section class="hero">
+        <div class="top-bar">
+            <img src="Project pic&vid/2c70f457-9acb-46ff-a66a-a5684fdb7293.png" alt="Logo" class="logo-img">
+            <h1 style="color: white; font-size: 2.2rem;">Freshers Akwaaba & Security Awareness Night</h1>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Our Team</a>
+            <a href="modules.html">Modules</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- Main About Section with YOUR OWN PICTURE as background -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>About the Event</h2>
+            
+            <p>Security is a shared responsibility. Many individuals underestimate its importance, leaving themselves vulnerable to both physical and cyber threats.</p>
+            
+            <p>This program, in partnership with Gold Refinery Hall, raised awareness and provided practical training during the Akwaaba Night Celebration. We educated participants on personal safety, digital protection, and corrected common misconceptions about cybersecurity.</p>
+            
+            <p>The program combined festive celebration with practical learning through interactive sessions, live demonstrations, and real-life examples of cyber threats such as phishing, scams, and unsafe digital practices.</p>
+            
+            <p>Our objective was to promote vigilance, responsible digital behavior, and increased awareness of cybersecurity in everyday life while blending it beautifully with the rich Ghanaian cultural spirit of Akwaaba Night.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Freshers Akwaaba & Security Awareness Night • CY381 Cybersecurity Lab Work 1 • March 2026</p>
+    </footer>
+
+</body>
+</html>

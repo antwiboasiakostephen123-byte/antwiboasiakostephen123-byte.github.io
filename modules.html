@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Modules - Freshers Akwaaba & Security Awareness Night</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            background-image: url('Project pic&vid/canva-blue-and-pink-gradient-modern-3d-illustrative-tech-circle-geometric-lines-cyber-security-presentation-Gf-cxPxmhew.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 25vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 30, 0.60);
+            z-index: 1;
+        }
+        .top-bar {
+            position: absolute;
+            top: 25px;
+            left: 40px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-img {
+            max-width: 95px;
+            height: auto;
+        }
+        .nav {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            z-index: 3;
+        }
+        .nav a {
+            color: #00ff9f;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            color: white;
+        }
+        .modules-section {
+            background-image: url('Project pic&vid/Untitled.jpeg');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            position: relative;
+            color: white;
+        }
+        .modules-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(32, 32, 54, 0.65);
+            z-index: 1;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #00ff9f;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .modules-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        .module-card {
+            background: rgba(20, 20, 40, 0.85);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #00ff9f33;
+        }
+        .summary-card {
+            background: rgba(20, 20, 40, 0.85);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #00ff9f33;
+            max-width: 600px;
+            margin: 40px auto 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Banner -->
+    <section class="hero">
+        <div class="top-bar">
+            <img src="Project pic&vid/2c70f457-9acb-46ff-a66a-a5684fdb7293.png" alt="Logo" class="logo-img">
+            <h1 style="color: white; font-size: 2.1rem;">Freshers Akwaaba & Security Awareness Night</h1>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Our Team</a>
+            <a href="modules.html">Modules</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section class="modules-section">
+        <div class="content">
+            <h2>Program Modules</h2>
+            
+            <div class="modules-grid">
+                <!-- Top row -->
+                <div class="module-card">
+                    <h3>Module 1: Leadership & Organization</h3>
+                    <p><strong>Led by:</strong> Coffie Obed Kakari</p>
+                    <p>Overall coordination, research-based content, and stakeholder engagement.</p>
+                </div>
+                <div class="module-card">
+                    <h3>Module 2: Dispelling Misconceptions</h3>
+                    <p><strong>Led by:</strong> Antwi Stephen Boasiako & Osmond Apedo</p>
+                    <p>Correcting the belief that cybersecurity is not about scamming or exploitation.</p>
+                </div>
+
+                <!-- Bottom row -->
+                <div class="module-card">
+                    <h3>Module 3: Importance of Cybersecurity</h3>
+                    <p><strong>Led by:</strong> Halima Adjartey & Isaac Collins Boni</p>
+                    <p>Explaining why cybersecurity is needed and common attack types.</p>
+                </div>
+                <div class="module-card">
+                    <h3>Module 4: Practicals Technical Training</h3>
+                    <p><strong>Led by:</strong> Otoo Amoah Barrack & Patrick Nsiah</p>
+                    <p>Hands-on training in call tracking, safe browsing, message handling, and online privacy.</p>
+                </div>
+            </div>
+
+            <!-- Desmond Mensah - Centered below the four modules -->
+            <div class="summary-card">
+                <h3>Module 5: Summary & Documentation</h3>
+                <p><strong>Led by:</strong> Desmond Mensah</p>
+                <p>Compiled and summarized all the works done during the program. Prepared final documentation and key takeaways.</p>
+            </div>
+
+            <h2 style="margin-top: 60px;">Methodology Used</h2>
+            <ul>
+                <li>Interactive talks with real-life examples</li>
+                <li>Live demonstrations of technical practices</li>
+                <li>Q&A sessions for clarity</li>
+                <li>Distribution of informative handouts</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Freshers Akwaaba & Security Awareness Night • CY381 Cybersecurity Lab Work 1 • March 2026</p>
+    </footer>
+
+</body>
+</html>

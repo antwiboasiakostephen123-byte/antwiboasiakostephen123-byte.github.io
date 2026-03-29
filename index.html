@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshers Akwaaba & Security Awareness Night</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Banner - Top Hero with your own image */
+       .hero {
+            background-image: url('Project pic&vid/Blank 6 Grids Collage.png');
+            background-size: cover;
+            background-position: top center;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 30, 0.55);
+            z-index: 1;
+        }
+
+        /* Welcome Section - Your own image as background */
+        .welcome-section {
+            background-image: url('Project pic&vid/images.jpeg');     /* ← YOUR WELCOME IMAGE HERE */
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            position: relative;
+            color: white;
+        }
+        
+        .welcome-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 25, 0.72);
+            z-index: 1;
+        }
+
+        .top-bar {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-img {
+            max-width: 110px;
+            height: auto;
+        }
+
+        .nav {
+            position: absolute;
+            top: 35px;
+            right: 40px;
+            z-index: 3;
+        }
+
+        .nav a {
+            color: #00ff9f;
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            color: white;
+        }
+
+        .hero-content, .welcome-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            max-width: 850px;
+        }
+
+        .hero-content h1 {
+            font-size: 3.3rem;
+            color: #00ff9f;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Banner - Your own image -->
+    <section class="hero">
+        <div class="top-bar">
+            <img src="Project pic&vid/2c70f457-9acb-46ff-a66a-a5684fdb7293.png" alt="Logo" class="logo-img">
+            <div style="color: white; font-size: 1.95rem; font-weight: 600;">Freshers Akwaaba & Security Awareness Night</div>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Our Team</a>
+            <a href="modules.html">Modules</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="hero-content">
+            <h1>Akwaaba Night Celebration</h1>
+            <p>@ Organized by Gold Refinery Hall</p>
+            <p>In Collaboration with Our CY381 Cybersecurity Team</p>
+            <p style="margin-top: 20px; font-size: 1.25rem;">
+                March 21, 2026 | Blending Ghanaian Culture with Cybersecurity Awareness
+            </p>
+        </div>
+    </section>
+
+    <!-- Welcome Section - Your own image as background -->
+    <section class="welcome-section">
+        <div class="welcome-content">
+            <h2>Welcome to Our Event</h2>
+            <p>On March 21, 2026, Gold Refinery Hall successfully organized the Akwaaba Night Celebration, bringing together participants for a vibrant cultural experience.</p>
+            
+            <p>As part of this event, our CY381 Cybersecurity team collaborated with the organizers to deliver a Security Awareness Program aimed at educating participants on both physical and digital safety.</p>
+            
+            <p>The program combined festive celebration with practical learning through interactive sessions, live demonstrations, and real-life examples of cyber threats such as phishing, scams, and unsafe digital practices.</p>
+            
+            <p>Our objective was to promote vigilance, responsible digital behavior, and increased awareness of cybersecurity in everyday life.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Freshers Akwaaba & Security Awareness Night • CY381 Cybersecurity Lab Work 1 • March 2026</p>
+    </footer>
+
+</body>
+</html>
